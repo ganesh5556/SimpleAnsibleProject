@@ -1,7 +1,7 @@
 ---
--name: git installation 
- hosts: all
- become: yes
+- name: git installation 
+  hosts: all
+  become: yes
   tasks:
     - name: Install git
       apt:
