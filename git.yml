@@ -4,6 +4,6 @@
   tasks:
     - name: Install git
       apt:
-        name: "git"
-        state: "present"
+        name: git
+        state: present
 ---
